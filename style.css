@@ -7,11 +7,9 @@ body{
 	background-image: url("/bcgf.png");
 	background-position:center;
 	background-repeat:no-repeat;
-
-	/*background: -webkit-linear-gradient(to bottom right, pink, white);
-	background: -moz-linear-gradient(to bottom right, pink,white);
-	background: linear-gradient(to bottom right, pink,white);*/
 }
+
+/* str types */
 img {
 	display:Block;
 	width: 100%;
@@ -28,12 +26,7 @@ p {
 	padding 1em 0;
 }
 
-
-.icon{
-	text-decoration:none;
-	color: black;
-}
-
+/* content */
 
 .btn {
 	display: inline-block;
@@ -50,12 +43,19 @@ p {
 	color: #333;
 }
 
+.icon{
+	text-decoration:none;
+	color: black;
+}
+/* Grid */
+
+/* ===== header ===== */
 
 .logo {
 	text-align:center;
 	font-size: 2em;
-	}
-
+	justify-items: stretch;
+}
 .menu {
 	text-align:right;
 	font-size: 1em;
@@ -74,14 +74,38 @@ p {
 	text-decoration:none;
 }
 
-.card{
-	text-decoration: none;
-}
-
 .menu .icon{
 	display:none;
 }
 
+.animated:nth-child(0) {animation-delay: 0.0s;}
+.animated:nth-child(1) {animation-delay: 0.2s;}
+.animated:nth-child(2) {animation-delay: 0.4s;}
+.animated:nth-child(3) {animation-delay: 0.6s;}
+.animated:nth-child(4) {animation-delay: 0.8s;}
+.animated:nth-child(5) {animation-delay: 1s;}
+
+
+@media screen and (max-width: 700px){
+	.menu a {display:none;}
+	.menu a.icon{
+		float:right;
+		display:inline-block;
+		text-decoration:none;
+	}
+	.logo{
+		font-size: 2em;
+		position: center;
+	}
+
+/* ===== SCREEN 1 ===== */
+	
+.container {
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+	
 .content-wrap{
 	display:grid;
 	grid-column-start: 1;
@@ -106,22 +130,7 @@ p {
 	height:auto;
 }
 
-.mask{
-	margin-left:10%;
-}
-
-.container {
-	display:grid;
-	grid-template-columns: repeat(2,1fr);
-}
-
-.logo{
-	justify-items: stretch;
-}
-#section-a{
-	grid-column-start:1;
-	grid-column-end:3;
-}
+/* Features */
 
 #section-b{
 background-image: url("bcgF3.svg");
@@ -129,13 +138,16 @@ background-image: url("bcgF3.svg");
 		background-position:center;
 	background-repeat:no-repeat;
 }
+	
+/* What can I ask Enni */
 
-
-#main{
-	grid-column-start: 1;
-	grid-column-end: 3;
-
+#section-a{
+	grid-column-start:1;
+	grid-column-end:3;
 }
+
+
+
 
 #main-footer{
 	grid-column-start: 1;
@@ -147,113 +159,9 @@ background-image: url("bcgF3.svg");
 
 
 
-.animated:nth-child(0) {animation-delay: 0.0s;}
-.animated:nth-child(1) {animation-delay: 0.2s;}
-.animated:nth-child(2) {animation-delay: 0.4s;}
-.animated:nth-child(3) {animation-delay: 0.6s;}
-.animated:nth-child(4) {animation-delay: 0.8s;}
-.animated:nth-child(5) {animation-delay: 1s;}
 
 
 
-@-webkit-keyframes bounceInD {
-  from,
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  20% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-
-  40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-
-  80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes bounceInD {
-  from,
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-
-  20% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-
-  40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-
-  80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-.bounceInD {
-  -webkit-animation-duration: 0.75s;
-  animation-duration: 0.75s;
-  -webkit-animation-name: bounceInD;
-  animation-name: bounceInD;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
 .context-text p{
 	animation-name: fadeIn;
 	animation-duration:3s;
@@ -263,7 +171,7 @@ background-image: url("bcgF3.svg");
 .links a{
 	text-decoration: none;
 	padding: 5px;
-	color:#3E474F;
+	color:white;
 }
 
 .links a:hover{
@@ -278,7 +186,7 @@ background-image: url("bcgF3.svg");
 	text-align: center;
 	text-decoration: none;
 	margin:10px 2px;
-	color:#3E474F;
+	color:white;
 }
 
 
@@ -289,11 +197,7 @@ background-image: url("bcgF3.svg");
 
 
 @media (min-width: 700px) {
-	.grid {
-		display:grid;
-		grid-template-columns: l l m m 
-							   ;
-	}
+
 	.content-wrap2{
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -308,16 +212,7 @@ background-image: url("bcgF3.svg");
 }
 
 @media screen and (max-width: 700px) {
-	.menu a {display:none;}
-	.menu a.icon{
-		float:right;
-		display:inline-block;
-		text-decoration:none;
-	}
-	.logo{
-		font-size: 2em;
-		position: center;
-	}
+	
 
     .mask{
     	display:none;
