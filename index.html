@@ -1,46 +1,62 @@
 
+
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Enni Left?</title>
+  <title>Enni Left? </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animate.css">
-  <link rel="stylesheet" href="slider.css">
   <link rel="stylesheet" href="carousel.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113558020-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-113558020-1');
-  </script>
-
-
+  <link rel="stylesheet" href="nav.css">
+  <script src = "menu.js"> </script>
 </head>
+
 <body>
   <div class="container">
-            <div class="logo">
-                    <h1 class="animated bounceIn">Enni Left?</h1> 
-            </div>
-            <div class="menu">
-              <!--
-                    <a href="#" class="animated bounceIn">About</a>
-                    <a href="#section-b" class="animated bounceIn">Features</a>
-                    <a href="#" class="animated bounceIn">Dashboard</a>
-                    <a href="#" class="animated bounceIn">Login</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>-->
-            </div>
+            <nav>
+          <span id="brand">
+    <a href="test.html"> <div class="animated bounceIn">Enni Left?</div></a>
+  </span>
+  <ul id="menu">
+    <li><a href="about.html">About</a></li>
+    <!--
+    -->
+    <li><a href="blog.html">Blog</a></li>
+    <!--
+    -->
+    <li><a href="faq.html">Faq</a></li>
+    <!--
+    -->
+    <li><a href="login.html">Login</a></li>
+  </ul>
+
+  <div id="toggle">
+    <div class="span" id="one"></div>
+    <div class="span" id="two"></div>
+    <div class="span" id="three"></div>
+  </div>
+
+  </nav>
+<div id="resize">
+  <ul id="menu">
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">CONTACT</a></li>
+    <li><a href="">FAQ</a></li>
+  </ul>
+</div>
+        </div>
+            
 
             <!-- Section a/MAIN LANDING -->
             <section id="section-a" class="grid">
                 <div class="content-wrap">
-                       <script type='text/javascript' src='https://app.botsociety.io/js/lib/embedsoc.js'>
-                       </script><a class='botsocref' style='position:fixed;left:-30000px;' href='https://botsociety.io'>chatbot</a><a class='botsoc' rel='nofollow' href='https://app.botsociety.io/emb/5a6f9fb4c15887000e8c96b6?p=bcf99132e9a2638e2fff314cc18ba6d4279256b8' target='small'></a>
+                       <img src="iphone.png">
 
 			
                     <div class="content-slider">
@@ -58,42 +74,79 @@
                                   <br>
                                   <br>
                                   <br>
+                                  <div class ="pizda">
+                                  <img src="ennichat.png">
+                                </div>
                                   <h2> Coming soon. </h2>
+
                     </div>  
                 </div>
             </section>
 
   <main id="main">
 
-  <!-- <section id="section-c" class="grid"> 
+  <section id="section-c" class="grid"> 
 
                   <h2> Why choose Enni? </h2>
 
                   <div class="content-wrap3">
-                          <div class="noapp"><h4> No need to install a new app </h4>
-                            <img src="noapp.svg" width="50px" height="50px">
-                            <p> Enni is an intelligent chatbot hosted via Facebook Messenger. There's no need to install any other aditional application </p>
-                       <p>
-
-                        🤔 When does my beef expire? <br>
-                          🤢 My fish expires on the 16th</p>
+                          <div class="noapp">
+                            <left>
+                            <h4> 1. No need to install a new app </h4> </left>
+                            <div class="grid1">
+                            <div class = "img1" an>
+                                 <img src="noappp.svg">
+                            </div>
+                            <p> Enni is an intelligent chatbot hosted via Facebook Messenger. There's no need to install any other additional app.</p>
+                            </div>
                           </div>
-                          <div class="Stockupd">
-                       <h4> Stock Updates </h4>
-                       <p>💸 I bought chicken <br>
-                          🤔 How many onions do I have? <br>
-                          🥚 I have 6 eggs <br>
-                          ❌ I ran out of milk <br>
-                          ❗ I used 3 carrots </p>
-                          <br>
+                          <div class="sharefrdg">
+                            <h4> 2. Share a fridge with your flatmates </h4>
+                            <div class="grid1">
+                            <div class="img2">
+                              <img src="frdgbold.svg">
+                            </div>
+                            <p> Sign your fridge and pantry up so that you know what items you need to buy in due time! </p>
+                          </div>
                         </div>
-                        <div class="rmd">
-                       <h4> Reminders </h4>
-                       <p>⏰ Remind me to buy milk at 4pm <br>
-                          🍅 I need more tomatoes</p>
-                          <br>
+                          <div class="savemulla">
+                            <h4 color="#edebe4"> 3. Save money </h4>
+                            <div class="grid1">
+                            <div class="img3">
+                              <img src="savemoney.svg">
+                            </div>
+                            <p> Save on average £39 a month by reducing the amount of food you waste! </p>
+                          </div>
+                          </div>
+                          <div class="reducewaste">
+                            <h4> 4. Help the environment </h4>
+                            <div class="grid1">
+                            <div class="img4"> 
+                              <img src="carbonfootprint.svg">
+                            </div>
+                            <p> Help the environment by reducing both the amount of food you waste and your carbon footprint! <br> </p>
+                          </div>
+                          </div>
+                          <div class="shopperb">
+                            <h4> 5. Figure out what type of a shopper you are! </h4>
+                            <div class="grid1">
+                            <div class="img5">
+                              <img src="litics.svg">
+                            </div>
+                            <p> What food do you waste most or spend most money on? With Enni's analytics dashboard, you can easily determine your hidden shopping patterns! <br> </p>
+                          </div>
+                          </div>
+                          <div class="goalsset">
+                            <h4> 6. Set goals! </h4>
+                            <div class="grid1">
+                            <div class="img6">
+                              <img src ="goals.svg">
+                            </div>
+                            <p> Want to buy more veggies next week? Or spend less on groceries this month? Get personalised shopping lists and set goals with Enni! <br>  </p>
+                          </div></div>
+                        
                     </div>
-            </section> */ -->
+            </section>
 
 	<!--Section B / FEATURES -->
             <section id="section-b" class="grid">
@@ -109,7 +162,7 @@
                                 <h2 class="carousel__caption">Reminders to buy food</h2>
                                 <p class="carousel__txt">Get reminders to buy food based on your schedule and pantry inventory.</p>         
                                 <div>
-                                  <script type='text/javascript' src='https://app.botsociety.io/js/lib/embedsoc.js'></script><a class='botsocref' style='position:fixed;left:-30000px;' href='https://botsociety.io'>chatbot</a><a class='botsoc' rel='nofollow' href='https://app.botsociety.io/emb/5a6f9fb4c15887000e8c96b6?p=bcf99132e9a2638e2fff314cc18ba6d4279256b8' target='small'></a>
+                                  <img src="iphone.png"/>
 
 
                                 </div>     
@@ -123,7 +176,7 @@
                                 
                                 <h2 class="carousel__caption">Recipe suggestions</h2>
                                 <p class="carousel__txt">Get recipe suggestions tailored to your likes and inventory.</p>
-                                <h3><script type='text/javascript' src='https://app.botsociety.io/js/lib/embedsoc.js'></script><a class='botsocref' style='position:fixed;left:-30000px;' href='https://botsociety.io'>chatbot</a><a class='botsoc' rel='nofollow' href='https://app.botsociety.io/emb/5a71bde8ad1ccf000d7e57ac?p=a3f36bdbe274446a304875107bcc7188f2853367' target='small'></a></h3> 
+                                <h3><img src="iphone.png"></h3> 
                         </div>
                         <div class="carousel__contents">    
                                    
@@ -166,7 +219,7 @@
         <footer id="main-footer" class="grid">
             <div> Copyright Enni Left 2018. <br>
               Enni Left is a limited company registered in Scotland. 
-Registered number: SC584653.</div>
+Registration number: SC584653.</div>
             <div class = "links">
                 <a href = "#"> Company </a>
                 <a href = "#"> Terms and conditions </a>
