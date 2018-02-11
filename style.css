@@ -20,22 +20,12 @@ p {
 
 /*basic stuff*/
 
-.icon{
-	text-decoration:none;
-	color:  
-}
-
-.logo {
-	text-align:center;
-	font-size: 2em;
-	}
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
 	width:80px;
 	height:80px;
 	color:white;
 }
-
 
 .content-wrap{
 	display:grid;
@@ -85,7 +75,7 @@ p {
 }
 
 .container {
-  margin-top:10%;
+  	margin-top:5%;
 	display:grid;
 	grid-template-columns: 1fr;
 }
