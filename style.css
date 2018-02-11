@@ -61,8 +61,7 @@ p {
 .pizda{
 	width: 200px;
 	height:auto;
-	position:relative;
-	margin-left:30%;
+	position:center;
 }
 
 .content-slider h2{
