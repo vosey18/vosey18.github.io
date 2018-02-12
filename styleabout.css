@@ -158,7 +158,7 @@ p {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	text-align: center;
-	color: white;
+	color: grey;
 }
 
 .links a{
