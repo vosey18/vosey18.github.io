@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
+  <link rel="stylesheet" href="styleabout.css">
+  <link rel="stylesheet" href="nav.css">
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div class="container">
+                <span id="brand">
+                     <a href="index.html">
+                        <img src="ennileft_white-02.svg" alt="Enni Left?" style="width:300px;height:58;border:0;"> </a>
+                </span>
+            <nav>
+                
+                <ul id="menu">
+                    <li><a href="about.html" style="color:#666;">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="login.html">Login</a></li>
+                 </ul>
+                 <div id="toggle">
+                     <div class="span" id="one"></div>
+                     <div class="span" id="two"></div>
+                     <div class="span" id="three"></div>
+                </div>
+            </nav>
+            <div id="resize">
+                 <ul id="menu">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="faq.html">FAQ</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="about.html">X</a></li>
+                 </ul>
+            </div>
+    </div>
+    
+            <center> <h2> Frequently Asked Questions </h2> </center> <br><br>
+
+    <div class="Enni-content">
+
+        <div class="content1">
+            
+            Why a chatbot?
+                <br><br>
+        </div>
+        <div class="content2">
+            “Chatbots are the new apps” - Microsoft’s CEO Satya Nadella. We truly believe this. Chatbots allow you to communicate with Enni in the most personal style. Rather than be limited to interacting with an app through the designed interface you can directly interact with Enni and ask her the questions that you want to know. 
+            Enni is available any time and from any platform. Are you on a laptop? A mobile, tablet, Android or Apple device? No worries, speak to Enni through any of these devices. You’re not limited to only interacting with Enni through the phone you downloaded the application on as you would be with an app. 
+            Have you ever spent ages searching through your phone for an app you know is there but can’t find? Do you get frustrated by having to download updates for apps – or worse not having enough storage space on your phone to download it? Enni living on Facebook Messenger resolves this problem. 
+            Enni is smart. Using the latest advances in natural language processing, interact with Enni like you would a friend. AI is transforming the way we do life, interacting directly with Enni allows you to utilise AI to manage your food in the most effective way: cutting food waste, saving you money and the environment. 
+
+        </div>
+
+    </div>
+    <br><br>
+        <div class="btn2">
+            <center><img src="btn2.svg" style="width:50px; height:50px;"/></center>
+        </div>
+        <br><br>
+        <div class="ourstory">
+
+               <center> <h2> Our story </h2> 
+
+                <br><br>
+                Enni is a social enterprise started by students from the University of Edinburgh. The idea was formed after the three co-founders shared a flat for 2 years, and during this time unintentionally wasted so much food. Disappointed wih the apps on the app store, they set out to create a truely smart assistant - Meet Enni.
+          </center>
+        </div>
+            <br>
+            <br>
+            <div class="btn1">
+              <center><img src="btn1.svg" style="width:50px; height:50px;"/></center>
+            </div>
+            <br><br>
+    </div>
+            <center> <h2> Meet the team </h2> </center>
+            <br><br>
+
+    <div class="Founders">
+    <div class = "Tommy"> 
+        <center>
+        <img src="tom.svg" style="width:200px; height:200px; border:0;"/> 
+        <h3> Tom Vose </h3>
+        <h4> CEO, Co-Founder <br>
+         Head of Business Intelligence, FM Outsource </h4>
+    </center>
+    </div>
+    <div class = "Diamond">
+        <center>
+        <img src="diamond.svg" style="width:200px; height:200px; border:0;"/> 
+        <h3> Sammy Knight </h3>
+        <h4> CTO, Co-Founder <br>
+         Computer Science, University of Edinburgh </h4><br>
+    </center>
+    </div>
+    <div class ="Ali">
+        <center>
+        <img src="ali.svg" style="width:200px; height:200px; border:0;"/> 
+        <h3> Ali Haddad </h3>
+        <h4> CCO, Co-Founder <br>
+         Engineering, University of Edinburgh </h4><br>
+    </center>
+    </div>
+    </div>
+    <div class ="Devs">
+    <div class = "Carla">
+        <center>
+        <img src="carla.svg" style="width:200px; height:200px; border:0;"/> 
+        <h3> Laura Boczor </h3>
+        <h4> Product Manager <br>
+         Cognitive Science, University of Edinburgh </h4>
+         <br>
+    </center>
+    </div>
+    <div class ="Colin">
+        <center>
+        <img src="colin.svg" style="width:200px; height:200px; border:0;"/> 
+        <h3> Colin Parrot </h3>
+        <h4> Database Expert <br>
+         Computer Science, University of Edinburgh </h4>
+    </center>
+    <br>
+    </div>
+    <div class="Ali2">
+        <center>
+            <img src="ali2.svg" style="width:200px; height:200px; border:0;"/> 
+            <h3> Ali Kelly </h3>
+            <h4> Graphic Designer <br>
+            Graphic Design, DJCAD </h4>
+            <br>
+        </center>
+    </div>
+
+</div>
+    <br>
+    <br> 
+    <footer id="main-footer" class="grid">
+            <div> Copyright Enni Left 2018. <br>
+              Enni Left is a limited company registered in Scotland. 
+Registration number: SC584653.</div>
+            <div class = "links">
+                <a href = "#"> Company </a>
+                <a href = "#"> Terms and conditions </a>
+                <a href = "#"> Privacy policy </a>
+                <a href = "#"> Login </a>
+            </div>
+        </footer>
+  
+      </div>
+<br>
+<br>
+<br>
+
+      <script src = "menu.js"> </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113558020-1"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        gtag('config', 'UA-113558020-1');
+</script>
+
+</body>
+</html>
