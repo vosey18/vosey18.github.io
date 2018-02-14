@@ -66,6 +66,16 @@ p {
 	grid-row-gap: 10%;
 }
 
+.Enni-content-about{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-start:1;
+	grid-column-end:3;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:1.4em;
+}
 
 .content1{
 	display:grid;
@@ -202,16 +212,33 @@ p {
 	#brand{
         justify-content: center;
     }
-	.Enni-content{
-		display:grid;
-		grid-template-columns: 1fr;
-		justify-content: center;
-		grid-row-gap:3%;
-	}
+
+    .Enni-content{
+    	display:grid;
+    	grid-template-columns:1fr;
+    	justify-content: center;
+    	grid-row-gap: 2%;
+
+    }
+
+    .Enni-content-about{
+    	display:grid;
+    	grid-template-columns:1fr;
+    	justify-content:center;
+    }
+
     .container{
         display:grid;
         grid-template-columns: 1fr;
         object-position: center;
+    }
+
+    .content1a{
+    	text-align:center;
+    }
+
+    .content2a{
+    	text-align:center;
     }
 
     .content1{
@@ -254,7 +281,12 @@ p {
 		display:grid;
 		grid-template-columns: 1fr;
 		justify-content: center;
-		grid-row-gap:3%;
+	}
+
+	.Enni-content-about{
+		display:grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
 	}
 
 	.content1{
