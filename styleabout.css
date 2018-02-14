@@ -161,7 +161,26 @@ p {
 	text-decoration:none;
 }
 
-@media screen and (max-width: 1027px) {
+@media (max-width: 700px) {
+	#brand{
+        justify-content: center;
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns: 1fr;
+        object-position: center;
+    }
+
+    .content1{
+    	text-align:center;
+    }
+
+    .content2{
+    	text-align:center;
+    }
+
+@media (max-width: 1027px) {
 	
 	.container #brand{
 		grid-template-columns:1fr;
