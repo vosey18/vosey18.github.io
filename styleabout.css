@@ -202,7 +202,12 @@ p {
 	#brand{
         justify-content: center;
     }
-
+	.Enni-content{
+		display:grid;
+		grid-template-columns: 1fr;
+		justify-content: center;
+		grid-row-gap:3%;
+	}
     .container{
         display:grid;
         grid-template-columns: 1fr;
@@ -249,6 +254,7 @@ p {
 		display:grid;
 		grid-template-columns: 1fr;
 		justify-content: center;
+		grid-row-gap:3%;
 	}
 
 	.content1{
