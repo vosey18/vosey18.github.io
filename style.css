@@ -137,24 +137,23 @@ p {
         margin-bottom: 3%;
     }
 
-    #main-footer{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        text-align: center;
-        color: gray;
-    }
+   #main-footer{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center;
+	color: grey;
+}
 
-    .links a{
-        text-decoration: none;
-        padding: 5px;
-        color:#3E474F;
-    }
+.links a{
+	text-decoration:none;
+	color:grey;
+	padding: 5px;
+}
 
-    .links a:hover{
-        color:#666;
-        text-decoration:none;
-    }
-
+.links a:hover{
+	color:white;
+	text-decoration:none;
+}
 @media (min-width: 700px) {
 	#brand{
         justify-content: left;
