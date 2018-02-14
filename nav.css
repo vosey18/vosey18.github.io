@@ -17,31 +17,9 @@ nav {
   z-index: 1;
 }
 
-nav #brand {
-  float: left;
-  display: block;
-  margin-left: 20px;
-  font-size: 50px;
-  line-height: 70px;
-  font-weight: bold;
-}
-
-nav #brand a {
-  color: #fff;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-nav #brand a:hover {
-  color: #777777;
-}
-
 nav #menu {
   float: left;
-  left: 15%;
+  left: 35%;
   position: relative;
 }
 
@@ -50,6 +28,7 @@ nav #menu li {
   padding: 0px 10px;
   cursor: pointer;
   line-height: 70px;
+
   position: relative;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -62,19 +41,25 @@ nav #menu li a {
   color: #fff;
 }
 
-nav #menu li a: hover {
-  background: #333;
+nav #menu li a: hover{
+  color: #333;
 }
 
+nav {
+  display:grid;
+  justify-content: center;
+}
+
+
 #toggle {
-  position: absolute;
+  position: static;
   right: 20px;
   top: 14px;
   z-index: 999;
   width: 50px;
   height: 50px;
   cursor: pointer;
-  float: right;
+  float: center;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -144,7 +129,7 @@ nav #menu li a: hover {
   text-align: center;
   padding: 20px 0;
   text-align: center;
-  font-size: 50px;
+  font-size: 1.3em;
   min-height: 50px;
   font-weight: bold;
   cursor: pointer;
@@ -177,7 +162,7 @@ nav #menu li a: hover {
   opacity: 0.99;
 }
 
-@media (max-width:768px) {
+@media (max-width:700px) {
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -187,7 +172,7 @@ nav #menu li a: hover {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:700px) {
   #resize {
     visibility: hidden !important;
   }
