@@ -7,13 +7,14 @@ html, body {
 }
 
 body {
+  color: #444;
   font-family: 'nunito', sans-serif;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .carousel {
-  height: 44rem; /*100%* 300%*/
-  
+  height: 100%;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
@@ -24,21 +25,21 @@ body {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   -webkit-box-align: end;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: line-height;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: line-height;
+          justify-content: center;
 }
 .carousel__nav {
-  width: 12px; /*800px;*/
-  height: 14px; /*600px;*/
-  margin: 2.5rem 12px; /*2rem 12px;*/
+  width: 800px;
+  height: 600px;
+  margin: 1.5rem 12px;
   border-radius: 50%;
   z-index: 10;
-  outline: 6px solid white;
+  outline: 6px solid #ccc;
   outline-offset: -6px;
   box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
   cursor: pointer;
@@ -59,23 +60,22 @@ body {
   left: -100%;
 }
 .carousel__nav:checked:nth-of-type(3) ~ .carousel__inner {
-  left: -200%;
+  left: -100%;
 }
 .carousel__nav:checked:nth-of-type(4) ~ .carousel__inner {
-  left: -300%;
-}
-/*
-.carousel__nav:checked:nth-of-type(4) ~ .carousel__inner {
-  left: -400%;
+  left: -100%;
 }
 .carousel__nav:checked:nth-of-type(4) ~ .carousel__inner {
-  left: -500%;
-}*/
+  left: -100%;
+}
+.carousel__nav:checked:nth-of-type(4) ~ .carousel__inner {
+  left: -100%;
+}
 .carousel__inner {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400%; 
+  width: 400%;
   height: 100%;
   -webkit-transition: left 0.4s;
   transition: left 0.4s;
@@ -89,7 +89,7 @@ body {
 }
 .carousel__contents {
   height: 100%;
-  padding: .5rem;
+  padding: 2rem;
   text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -112,24 +112,25 @@ body {
           justify-content: center;
 }
 .carousel__image {
-  font-size: 2rem;
+  font-size: 2.7rem;
       color: #2196F3;
+      size: 70%;
 }
 .carousel__caption {
-  font-weight: 300;
+  font-weight: 400;
   margin: 2rem 0 1rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
 }
 .carousel__txt {
   color: white;
-  margin-bottom: .5rem;
+  margin-bottom: 2rem;
   max-width: 300px;
 }
 
 @-webkit-keyframes check {
   50% {
-    outline-color: white;
+    outline-color: #333;
     box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
   }
   100% {
