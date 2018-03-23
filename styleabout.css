@@ -9,7 +9,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
-background-size: 800% 800%;
+background-size: 500% 500%;
 }
 
 h1, h2, h3 {
