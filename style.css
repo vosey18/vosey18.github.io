@@ -7,7 +7,7 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background: linear-gradient(-35deg, #E73C7E, #EE7752, #23A6D5, #23D5AB) ;
     background-size: 800% 800%;
   }
 
@@ -145,7 +145,14 @@ p {
 	color:pink;
 	text-decoration:none;
 }
+
+
 @media (min-width: 700px) {
+	 body{
+        background-size: 500% 500%;
+        background-repeat: no-repeat;
+    }
+	
 	#brand{
         justify-content: left;
     }
@@ -158,8 +165,8 @@ p {
     }
 
 	.content-wrap2{
-		display:grid;
-		grid-template-columns: 1fr 1fr 1fr;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap:7%;
         margin-top:3%;
         margin-bottom: 5%;
