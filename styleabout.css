@@ -3,20 +3,13 @@ body{
 	color:white;
 	font-family: nunito, sans-serif;
 	font-size: 1.1em;
-	height: 100%;
-    	-webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
-    	background-repeat:no-repeat;
-    	background : -moz-linear-gradient(50% 99.51% 90deg,rgba(46, 194, 150, 1) 0%,rgba(49, 188, 157, 1) 45.5%,rgba(31, 162, 182, 1) 71.04%,rgba(14, 137, 206, 1) 100%) fixed;
-	background : -webkit-linear-gradient(90deg, rgba(46, 194, 150, 1) 0%, rgba(49, 188, 157, 1) 45.5%, rgba(31, 162, 182, 1) 71.04%, rgba(14, 137, 206, 1) 100%) fixed;
-	background : -webkit-gradient(linear,50% 99.51% ,50% 0.43% ,color-stop(0,rgba(46, 194, 150, 1) ),color-stop(0.455,rgba(49, 188, 157, 1) ),color-stop(0.7104,rgba(31, 162, 182, 1) ),color-stop(1,rgba(14, 137, 206, 1) )) fixed;
-	background : -o-linear-gradient(90deg, rgba(46, 194, 150, 1) 0%, rgba(49, 188, 157, 1) 45.5%, rgba(31, 162, 182, 1) 71.04%, rgba(14, 137, 206, 1) 100%) fixed;
-	background : -ms-linear-gradient(90deg, rgba(46, 194, 150, 1) 0%, rgba(49, 188, 157, 1) 45.5%, rgba(31, 162, 182, 1) 71.04%, rgba(14, 137, 206, 1) 100%) fixed;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2EC296', endColorstr='#0E89CE' ,GradientType=0)";
-	background : linear-gradient(0deg, rgba(46, 194, 150, 1) 0%, rgba(49, 188, 157, 1) 45.5%, rgba(31, 162, 182, 1) 71.04%, rgba(14, 137, 206, 1) 100%) fixed;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0E89CE',endColorstr='#2EC296' , GradientType=0);
+	   
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+background-size: 800% 800%;
 }
 
 h1, h2, h3 {
@@ -195,17 +188,17 @@ p {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	text-align: center;
-	color: grey;
+	color: white;
 }
 
 .links a{
 	text-decoration:none;
-	color:grey;
+	color:white;
 	padding: 5px;
 }
 
 .links a:hover{
-	color:white;
+	color:pink;
 	text-decoration:none;
 }
 
