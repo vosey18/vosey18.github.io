@@ -9,8 +9,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
-    background-size: 1000% 1000%;
-  }}
+    background-size: 800% 800%;
+  }
 
 
 h1, h2, h3 {
@@ -133,17 +133,17 @@ p {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	text-align: center;
-	color: grey;
+	color: white;
 }
 
 .links a{
 	text-decoration:none;
-	color:grey;
+	color:white;
 	padding: 5px;
 }
 
 .links a:hover{
-	color:white;
+	color:pink;
 	text-decoration:none;
 }
 @media (min-width: 700px) {
