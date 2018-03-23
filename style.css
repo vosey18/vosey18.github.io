@@ -2,7 +2,6 @@ body{
     margin: 0;
     color:white;
     font-family: nunito, sans-serif;
-        color:#edebe4;
     font-size: 1.1em;
     height: 100%;
     -webkit-background-size: cover;
@@ -104,7 +103,7 @@ p {
         display:grid;
         grid-template-columns: 80px auto;
         justify-content:stretch;
-        color: #edebe4;
+        color: white;
         margin-right:4%;
     }
 
